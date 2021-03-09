@@ -1,23 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
+import infoIcon from './svg-icons/information.svg'
+import maintenanceIcon from './svg-icons/maintenance.svg';
+import salesIcon from './svg-icons/line-chart-mono.svg';
+import financialIcon from './svg-icons/money-mono.svg';
 import './App.css';
+import { Button, Menu, MenuRow, Title } from './App.styled';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Menu>
+        <MenuRow>
+          <Button>
+            <img src={salesIcon} className="App-logo" alt="logo" />
+            <Title>Sales Area</Title>
+          </Button>
+          <Button>
+            <img src={financialIcon} className="App-logo" alt="logo" />
+            <Title>Financial Summary</Title>
+          </Button>
+        </MenuRow>
+        <MenuRow>
+          <Button>
+            <img src={maintenanceIcon} className="App-logo" alt="logo" />
+            <Title> Maintenance </Title>
+          </Button>
+          <Button>
+            <img src={infoIcon} className="App-logo" alt="logo" />
+            <Title>Informations</Title>
+          </Button>
+        </MenuRow>
+      </Menu>
       </header>
     </div>
   );
