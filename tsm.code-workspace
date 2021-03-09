@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"actionButtons": {
+			"loadNpmCommands": false,
+			"commands": [
+				{
+					"name": "Run API",
+					"color": "#FA22FA",
+					"command": "cd tsm-backend | yarn start:debug",
+				},
+				{
+					"name": "Run Front",
+					"color": "#1593FA",
+					"command": "cd tsm-frontend | yarn start",
+				},
+			]
+		},
+	},
+}
