@@ -28,8 +28,8 @@ export const Button = styled.button`
 
 export const IconWrapper = styled.img`
   padding: 3rem;
-  height: 25vmin;
-  height: 25vh;
+  width: 25vmin;
+  height: 20vmin;
   pointer-events: none;
   animation: IconSpinAnimation infinite 5s linear;
 
