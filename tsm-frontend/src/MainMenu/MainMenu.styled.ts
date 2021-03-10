@@ -17,7 +17,7 @@ export const  ButtonWrapper = styled.div`
 export const Button = styled.button`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 32vw;
   height: 40vh;
@@ -27,7 +27,7 @@ export const Button = styled.button`
 `;
 
 export const IconWrapper = styled.img`
-  padding: 3rem;
+  padding: 3vmin;
   width: 25vmin;
   height: 20vmin;
   pointer-events: none;
