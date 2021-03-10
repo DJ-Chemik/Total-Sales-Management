@@ -4,4 +4,5 @@ export enum colors {
   BLACK = '#000000',
   NEON_MAGENTA = '#F39',
   RED = '#F00',
+  BACKGROUND = '#000015',
 }

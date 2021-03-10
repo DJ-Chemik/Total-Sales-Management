@@ -3,7 +3,7 @@ import { colors } from './globalStyle';
 
 export const AppContainer = styled.div`
   text-align: center;
-  background-color: ${colors.BLACK};
+  background-color: ${colors.BACKGROUND};
   min-height: 100vh;
   display: flex;
   flex-direction: column;
