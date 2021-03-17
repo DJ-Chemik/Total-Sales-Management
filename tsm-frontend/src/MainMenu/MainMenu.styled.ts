@@ -17,8 +17,6 @@ export const  ButtonWrapper = styled.div`
   width: 32vw;
   height: 40vh;
   margin: 0.5rem;
-  
-  
 `;
 
 export const Button = styled.button`
@@ -30,17 +28,14 @@ export const Button = styled.button`
   height: 100%;
   background-color: ${colors.NEON_MAGENTA};
   cursor: pointer;
+  transition: all 500ms ease-out 50ms;
 
   :hover {
+    background-color: ${colors.REACT_CYAN};
     position: relative;
     width: 30vw;
     height: 37vh;
   }
-
-  :hover {
-    background-color: ${colors.NEON_MAGENTA_DARKER};
-  }
-  
 `;
 
 export const IconWrapper = styled.img`
