@@ -11,7 +11,14 @@ export const MenuRow = styled.div`
 `;
 
 export const  ButtonWrapper = styled.div`
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32vw;
+  height: 40vh;
+  margin: 0.5rem;
+  
+  
 `;
 
 export const Button = styled.button`
@@ -19,11 +26,21 @@ export const Button = styled.button`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 32vw;
-  height: 40vh;
-  margin: 0.5rem;
+  width: 100%;
+  height: 100%;
   background-color: ${colors.NEON_MAGENTA};
   cursor: pointer;
+
+  :hover {
+    position: relative;
+    width: 30vw;
+    height: 37vh;
+  }
+
+  :hover {
+    background-color: ${colors.NEON_MAGENTA_DARKER};
+  }
+  
 `;
 
 export const IconWrapper = styled.img`
