@@ -12,13 +12,13 @@ const MainMenu = () => {
         <ButtonWrapper>
           <Button>
             <IconWrapper src={salesIcon} alt='Sales Icon'/>
-            <Title>Sales Area</Title>
+            <Title>Sprzedaż</Title>
           </Button>
         </ButtonWrapper>
         <ButtonWrapper>
           <Button>
             <IconWrapper src={financialIcon} alt='Financial Icon'/>
-            <Title>Financial Summary</Title>
+            <Title>Finanse</Title>
           </Button>
         </ButtonWrapper>
       </MenuRow>
@@ -26,13 +26,13 @@ const MainMenu = () => {
         <ButtonWrapper>
           <Button>
             <IconWrapper src={maintenanceIcon} alt='Maintenance Icon'/>
-            <Title> Maintenance </Title>
+            <Title>Zarządzanie</Title>
           </Button>
         </ButtonWrapper>
         <ButtonWrapper>
           <Button>
             <IconWrapper src={infoIcon} alt='Information Icon'/>
-            <Title>Informations</Title>
+            <Title>Informacje</Title>
           </Button>
         </ButtonWrapper>
       </MenuRow>
