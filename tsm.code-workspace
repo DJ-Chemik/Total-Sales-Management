@@ -9,6 +9,16 @@
 			"loadNpmCommands": false,
 			"commands": [
 				{
+					"name": "Build API",
+					"color": "#EEDD22",
+					"command": "cd tsm-backend | yarn build",
+				},
+				{
+					"name": "Build Front",
+					"color": "#EEDD22",
+					"command": "cd tsm-frontend | yarn build",
+				},
+				{
 					"name": "Run API",
 					"color": "#FA22FA",
 					"command": "cd tsm-backend | yarn start:debug",
