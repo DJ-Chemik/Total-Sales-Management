@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "TargetExpand";
+  src: local("TargetExpand"),
+    url("./fonts/tarrgetexpand.ttf") format("truetype");
+  font-weight: normal;
+}
