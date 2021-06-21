@@ -1,11 +1,11 @@
 import React from 'react';
 import { Menu, MenuRow, Button, IconWrapper, Title, ButtonWrapper } from './MainMenu.styled';
-import infoIcon from './../svg-icons/information.svg'
-import maintenanceIcon from './../svg-icons/maintenance.svg';
-import salesIcon from './../svg-icons/line-chart-mono.svg';
-import financialIcon from './../svg-icons/money-mono.svg';
+import infoIcon from './../../../svg-icons/information.svg'
+import maintenanceIcon from './../../../svg-icons/maintenance.svg';
+import salesIcon from './../../../svg-icons/line-chart-mono.svg';
+import financialIcon from './../../../svg-icons/money-mono.svg';
 import { Link } from 'react-router-dom';
-import { APP_PAGE } from '../App';
+import { APP_PAGE } from '../../../App';
 
 const MainMenu = () => {
   return (

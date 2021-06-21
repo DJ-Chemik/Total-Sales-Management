@@ -1,14 +1,14 @@
 import React from 'react';
 import { AppContainer } from './App.styled';
-import MainMenu from './MainMenu/MainMenu';
+import MainMenu from './components/Application/MainMenu/MainMenu';
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
-import FinancialSummaryArea from './FinancialSummaryArea/FinancialSummaryArea';
-import MaintenanceArea from './MaintenanceArea/MaintenanceArea';
-import SalesArea from './SalesArea/SalesArea';
-import InformationArea from './InformationArea/InformationArea';
+import FinancialSummaryArea from './components/Application/FinancialSummaryArea/FinancialSummaryArea';
+import MaintenanceArea from './components/Application/MaintenanceArea/MaintenanceArea';
+import SalesArea from './components/Application/SalesArea/SalesArea';
+import InformationArea from './components/Application/InformationArea/InformationArea';
 
 export enum APP_PAGE {
   HOME = '/',

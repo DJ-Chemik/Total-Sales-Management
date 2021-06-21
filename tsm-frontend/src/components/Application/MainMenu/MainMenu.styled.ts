@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from './../globalStyle';
+import { colors } from './../../../globalStyle';
 
 export const Menu = styled.div`
   display: flex;

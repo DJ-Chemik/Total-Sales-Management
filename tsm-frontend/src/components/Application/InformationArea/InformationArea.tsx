@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { APP_PAGE } from '../App';
+import { APP_PAGE } from '../../../App';
 
-const FinancialSummaryArea = () => {
+const InformationArea = () => {
   return (
     <div>
       <div>
         <Link to={APP_PAGE.HOME}>Home</Link>
       </div>
-      Financial Summary Area
+      Information Area
     </div>
   );
 }
 
-export default FinancialSummaryArea;
+export default InformationArea;
